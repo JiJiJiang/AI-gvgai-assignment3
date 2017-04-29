@@ -17,6 +17,10 @@ public class Test
         
         CompetitionParameters.ACTION_TIME = 1000; // set to the time that allows you to do the depth first search
         ArcadeMachine.runOneGame("examples/gridphysics/aliens.txt", "examples/gridphysics/aliens_lvl0.txt", true, modelController, null, seed, false);
+        ArcadeMachine.runOneGame("examples/gridphysics/aliens.txt", "examples/gridphysics/aliens_lvl1.txt", true, modelController, null, seed, false);
+        ArcadeMachine.runOneGame("examples/gridphysics/aliens.txt", "examples/gridphysics/aliens_lvl2.txt", true, modelController, null, seed, false);
+        ArcadeMachine.runOneGame("examples/gridphysics/aliens.txt", "examples/gridphysics/aliens_lvl3.txt", true, modelController, null, seed, false);
+        ArcadeMachine.runOneGame("examples/gridphysics/aliens.txt", "examples/gridphysics/aliens_lvl4.txt", true, modelController, null, seed, false);
         
     }
 }

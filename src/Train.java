@@ -13,6 +13,6 @@ public class Train
         Recorder recorder  = new Recorder("AliensRecorder");
         
         Game.setRecorder(recorder);
-        ArcadeMachine.playOneGame( "examples/gridphysics/aliens.txt", "examples/gridphysics/aliens_lvl0.txt", null, new Random().nextInt());
+        ArcadeMachine.playOneGame( "examples/gridphysics/aliens.txt", "examples/gridphysics/aliens_lvl3.txt", null, new Random().nextInt());
     }
 }
